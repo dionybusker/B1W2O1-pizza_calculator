@@ -1,0 +1,39 @@
+body {
+    font-family: Calibri, Arial;
+}
+
+h1 {
+    font-family: "Chilanka", cursive;
+}
+
+/* styling van de button */
+button {
+    background-color: #969696;
+    border: none;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* styling over de button als de muis eroverheen gaat */
+button:hover {
+    background-color: #858585;
+}
+
+/* styling van de informatie op index.html en pizza-bon.html */
+.intro {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    width: 626px;
+    padding: 0 0 10px 0; /* top right bottom left */
+    background-color: #F5F5F5;
+}
+
+.info {
+    margin: 15px;
+    text-align: justify;
+}
